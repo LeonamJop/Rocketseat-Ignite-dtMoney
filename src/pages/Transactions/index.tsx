@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
-import { SearchForm } from "./components";
+import { SearchForm } from "./components/SearchForm";
 import { PriceHighLight, TransationsContainer, Transationstable } from "./styles";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
